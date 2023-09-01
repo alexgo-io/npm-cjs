@@ -16,7 +16,7 @@ execSync('git clone --depth 1 https://github.com/paulmillr/scure-btc-signer.git'
   };
   packageJson.type = "commonjs";
 
-  packageJson.dependencies['micro-packed-cjs'] = "0.0.1";
+  packageJson.dependencies['micro-packed-cjs'] = "0.3.2";
 
   console.log("package.json", packageJson);
   writeFileSync(
